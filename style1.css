@@ -50,8 +50,7 @@ header{
     color: whitesmoke;
 }
 .nav-item.active a {
-    color: rgb(219, 218, 218);
-    border-bottom: 1px dotted #006466;
+    color: rgb(255, 255, 255);
 }
 .button-default{
     border: none;
@@ -63,12 +62,14 @@ header{
     padding: 10px 14px;
     font-weight: 650;
     box-shadow: 0px 0px 10px 2px rgba(70, 70, 70, 0.158);
-    background: linear-gradient(135deg, #002c66 24%, #185985 50%, #186785 79%, #316AA4 100%);
+    background: linear-gradient(135deg, #ff6600 24%, #ff7b00 50%, #ff9900 79%, #ffae00 100%);
     color: #fff;
     transition: 0.5;
+    text-shadow: 1.2px 1.2px black;
+    font-size: 18px;
 }
 .button-default:hover{
-    background: linear-gradient(135deg, #002453 24%, #154f75 50%, #165d79 79%, #2a5b8d 100%);
+    background: linear-gradient(135deg, rgb(184, 83, 0) 24%, #b35600 50%, #c27400 79%, #ca8a00 100%);
     color: rgb(214, 214, 214);
     transition: ease 1s;
 }
@@ -92,7 +93,7 @@ header{
 }
 #title span{
     color:#124f68;
-    background: linear-gradient(135deg, #002c66 24%, #185985 50%, #186785 79%, #316AA4 100%);
+    background: linear-gradient(135deg, #ff9100 24%, #ffbb00 50%, #ffd000 79%, #ffe609 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black;
@@ -110,7 +111,7 @@ header{
     font-family: '';
     text-decoration: none;
     color:#124f68;
-    background: linear-gradient(135deg, #002c66 24%, #185985 50%, #186785 79%, #316AA4 100%);
+    background: linear-gradient(135deg, #ff6600 24%, #ff7b00 50%, #ff9900 79%, #ffae00 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black;
@@ -137,7 +138,7 @@ header{
     align-items: center;
     width: 45px;
     height: 40px;
-    background: linear-gradient(135deg, #002c66 24%, #185985 50%, #186785 79%, #316AA4 100%);
+    background: linear-gradient(135deg, #ff6600 24%, #ff7b00 50%, #ff9900 79%, #ffae00 100%);
     justify-content: center;
     border-radius: 10px;
     text-decoration: none;
@@ -145,7 +146,7 @@ header{
     
 }
 .social-media-btn a:hover{
-    background: linear-gradient(135deg, #002453 24%, #154f75 50%, #165d79 79%, #2a5b8d 100%);
+    background: linear-gradient(135deg, rgb(184, 83, 0) 24%, #b35600 50%, #c27400 79%, #ca8a00 100%);
 }
 #fa-dc svg{
     height: 25px;
@@ -169,7 +170,7 @@ header{
     padding: 10px 14px;
     font-weight: 650;
     box-shadow: 0px 0px 10px 2px rgba(70, 70, 70, 0.158);
-    background: linear-gradient(135deg, #002c66 24%, #185985 50%, #186785 79%, #316AA4 100%);
+    background: linear-gradient(135deg, #ff9100 24%, #ffbb00 50%, #ffd000 79%, #ffe609 100%);
     color: #fff;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -203,16 +204,15 @@ header{
     width: 25%;
     padding: 20px;
     height: 200px;
-    background: linear-gradient(135deg, #002c66 24%, #185985 50%, #186785 79%, #316AA4 100%);
+    background: linear-gradient(135deg, #ff6600 24%, #ff7b00 50%, #ff9900 79%, #ffae00 100%);
 }
 #coisa h3{
     color: whitesmoke;
     font-size: 23px;
-    border-bottom: 1px dotted #ffffff;
     align-items: center;
     justify-content: center;
     margin-top: 25%;
-    
+    text-shadow: 2px 2px black;  
 }
 #widget{
     margin-left: calc(50% - 175px);
@@ -244,6 +244,7 @@ header{
 .button-default a{
     color: white;
     text-decoration: none;
+
 }
 .button-default2:hover{
     color: rgb(219, 218, 218);
@@ -278,10 +279,35 @@ header{
 #nav_logo a{
     font-family: '';
     color:#124f68;
-    background: linear-gradient(135deg, #002c66 24%, #185985 50%, #186785 79%, #316AA4 100%);
+    background: linear-gradient(135deg, #ff9100 24%, #ffbb00 50%, #ffd000 79%, #ffe609 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 35px;
 
 
+}
+#fa-yt2 svg{
+    height: 25px;
+    width: 25px;
+}
+#fa-yt2{
+    display: flex; 
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    justify-content: center;    
+    display: flex;
+    align-items: center;
+    width: 45px;
+    height: 40px;
+    background-color: rgb(12, 12, 12);
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.151);
+}
+#fa-yt2:hover{
+    background-color: rgb(37, 37, 37);
 }
